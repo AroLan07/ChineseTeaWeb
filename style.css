@@ -1,0 +1,68 @@
+body {
+    background-color: aquamarine;
+}
+
+.Part1 {
+    width: 80%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZODcFxg-wNf495IggpuGWZYTW5wXHPPn3A&s");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Part1h1, 
+.Part1h2,
+.subtitleP {
+    text-align: center;
+    color: white;
+    font-family: Franklin Gothic Medium;
+}
+
+.Part2 {
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.Introh2, .Introh3 {
+    text-align: center;
+    color: black;
+    font-family: Arial Narrow, Arial, sans-serif;
+}
+
+.noteh4 {
+    text-align: center;
+    color: rgb(15, 202, 24);
+}
+
+.item p,
+.item h4 {
+    display: inline-block;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.Teatype {
+    text-align: left;
+    width: 25%;
+}
+
+.KR {
+    text-align: right;
+    width: 75%;
+}
+
+.sloganP {
+    text-align: center;
+}
+
+.homepagelinkp {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(2, 58, 16);
+    border-color: rgb(2, 58, 16);
+}
