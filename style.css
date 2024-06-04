@@ -1,84 +1,95 @@
 body {
-    background-color: aquamarine;
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-ed27bd3282dcdb470add75951b0bbc26");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .Part1 {
-    width: 80%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZODcFxg-wNf495IggpuGWZYTW5wXHPPn3A&s");
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+height: 25vh;
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-7943eba0faabbfe5e631243c55695f8e");
+  margin-left: auto;
+  margin-right: auto;
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
 }
 
 .Part1h1, 
 .Part1h2,
 .subtitleP {
-    text-align: center;
-    color: white;
-    font-family: Franklin Gothic Medium;
+text-align: center;
+color:white; /*adjust color(if needed)*/
+font-family: Franklin Gothic Medium;
+padding-top: 15px;
 }
 
 .Part2 {
-    width: 76%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    padding: 20px;
+width: 76%;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(255, 255, 255, 0.5); /* Setting alpha value to 0.5 for half transparency */
+padding: 20px;
+  text-align: center;
 }
 
 .Introh2, .Introh3 {
-    text-align: center;
-    color: black;
-    font-family: Arial Narrow, Arial, sans-serif;
+text-align: center;
+color: black; /*adjust color(if needed)*/
+font-family: Efficio;
 }
 
 .noteh4 {
-    text-align: center;
-    color: rgb(15, 202, 24);
+  text-align: center;
+  color:  red;
 }
 
+/* place <article class="item"> infront of .Teatype */
 .item p,
 .item h4 {
-    display: inline-block;
-    font-family: cursive;
-    font-size: 18px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 18px;
 }
 
 .Teatype {
-    text-align: left;
-    width: 25%;
+  text-align: left;
+  width: 25%;
 }
 
 .KR {
-    text-align: right;
-    width: 75%;
+  text-align: right;
+  width: 75%;
 }
 
 .sloganP {
-    text-align: center;
+  text-align: center;
 }
 
 .homepagelinkp {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    height: 2px;
-    background-color: rgb(2, 58, 16);
-    border-color: rgb(2, 58, 16);
+  height: 2px;
+  background-color:rgb(2, 58, 16);
+  border-color: rgb(2, 58, 16);
 }
 
 a {
-    color: rgb(2, 58, 16);
-  }
-  
-  a:visited {
-    color: rgb(2, 58, 16);
-  }
-  
-  a:hover {
-    color: rgb(14, 160, 245);
-  }
-  
-  a:active {
-    color: rgb(14, 160, 245);
-  }
+  color: rgb(2, 58, 16);
+}
+
+a:visited {
+  color: rgb(2, 58, 16);
+}
+
+a:hover {
+  color: rgb(14, 160, 245);
+}
+
+a:active {
+  color: rgb(14, 160, 245);
+}
