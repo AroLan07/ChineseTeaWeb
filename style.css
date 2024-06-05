@@ -91,10 +91,6 @@ a:hover, a:active {
         width: 90%;
     }
 
-    .item {
-        flex-direction: row; /* Ensure items stay in a row */
-    }
-
     .Teatype, .KR {
         width: 45%;
         text-align: left;
