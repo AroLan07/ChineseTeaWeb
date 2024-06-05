@@ -50,17 +50,20 @@ body {
 .item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 0;
 }
 
 .Teatype {
     text-align: left;
     width: 45%;
+    order: 1;
 }
 
 .KR {
     text-align: right;
     width: 45%;
+    order: 2;
 }
 
 .sloganP, .homepagelinkp {
@@ -89,13 +92,12 @@ a:hover, a:active {
     }
 
     .item {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row; /* Ensure items stay in a row */
     }
 
     .Teatype, .KR {
-        width: 100%;
-        text-align: center;
+        width: 45%;
+        text-align: left;
     }
 }
 
