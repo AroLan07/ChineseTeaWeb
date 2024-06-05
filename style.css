@@ -28,61 +28,71 @@ body {
 }
 
 .Part2 {
-    width: 90%;
-    max-width: 800px; /* Set a maximum width for larger screens */
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    text-align: center;
+width: 76%;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(255, 255, 255, 0.5); /* Setting alpha value to 0.5 for half transparency */
+padding: 20px;
+  text-align: center;
 }
 
 .Introh2, .Introh3 {
-    text-align: center;
-    color: black; 
-    font-family: Efficio;
+text-align: center;
+color: black; /*adjust color(if needed)*/
+font-family: Efficio;
 }
 
 .noteh4 {
-    text-align: center;
-    color: red;
+  text-align: center;
+  color:  red;
 }
 
-.item {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    flex-wrap: wrap; /* Allow wrapping for small screens */
+/* place <article class="item"> infront of .Teatype */
+.item p,
+.item h4 {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 18px;
 }
 
-.Category {
-    text-align: left;
-    width: 45%;
-    order: 1; /* Ensure Category stays on the left side */
+.Teatype {
+  text-align: left;
+  width: 25%;
 }
 
 .KR {
-    text-align: right;
-    width: 45%;
-    order: 2; /* Ensure KR stays on the right side */
+  text-align: right;
+  width: 75%;
 }
 
-.sloganP, .homepagelinkp {
-    text-align: center;
+.sloganP {
+  text-align: center;
+}
+
+.homepagelinkp {
+  text-align: center;
 }
 
 hr {
-    height: 2px;
-    background-color: rgb(2, 58, 16);
-    border: none;
+  height: 2px;
+  background-color:rgb(2, 58, 16);
+  border-color: rgb(2, 58, 16);
 }
 
 a {
-    color: rgb(2, 58, 16);
-    text-decoration: none;
+  color: rgb(2, 58, 16);
 }
 
-a:hover, a:active {
-    color: rgb(14, 160, 245);
+a:visited {
+  color: rgb(2, 58, 16);
+}
+
+a:hover {
+  color: rgb(14, 160, 245);
+}
+
+a:active {
+  color: rgb(14, 160, 245);
 }
 
 /* Media Queries for responsive design */
@@ -90,18 +100,6 @@ a:hover, a:active {
     .Part1 {
         width: 90%;
     }
-
-    .item {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .Category, .KR {
-        width: 100%;
-        text-align: center;
-        order: initial; /* Reset order for smaller screens */
-    }
-}
 
 @media (max-width: 480px) {
     .Part1 {
