@@ -50,20 +50,20 @@ body {
 .item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 0;
+    flex-wrap: wrap; /* Allow wrapping for small screens */
 }
 
-.Teatype {
+.Category {
     text-align: left;
     width: 45%;
-    order: 1;
+    order: 1; /* Ensure Category stays on the left side */
 }
 
 .KR {
     text-align: right;
     width: 45%;
-    order: 2;
+    order: 2; /* Ensure KR stays on the right side */
 }
 
 .sloganP, .homepagelinkp {
@@ -91,9 +91,15 @@ a:hover, a:active {
         width: 90%;
     }
 
-    .Teatype, .KR {
-        width: 45%;
-        text-align: left;
+    .item {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .Category, .KR {
+        width: 100%;
+        text-align: center;
+        order: initial; /* Reset order for smaller screens */
     }
 }
 
@@ -106,5 +112,9 @@ a:hover, a:active {
     .Part1h2,
     .subtitleP {
         font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .Category, .KR {
+        font-size: 1em; /* Adjust font size for smaller screens */
     }
 }
