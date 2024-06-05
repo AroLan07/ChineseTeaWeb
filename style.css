@@ -57,12 +57,12 @@ font-family: Efficio;
 
 .Teatype {
   text-align: left;
-  width: 25%;
+  width: 30%;
 }
 
 .KR {
   text-align: right;
-  width: 75%;
+  width: 60%;
 }
 
 .sloganP {
@@ -113,6 +113,6 @@ a:active {
     }
 
     .Category, .KR {
-        font-size: 1em; /* Adjust font size for smaller screens */
+        font-size: 0.9em; /* Adjust font size for smaller screens */
     }
 }
